@@ -21,6 +21,9 @@ disqusShortname = ""      # disqus_shortname
 googleAnalytics = "UA-83044258-1"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
+[permalinks]
+  post = "/:filename/"  # 自定义文件路径
+
 [blackfriday]
   smartypants = false
 
@@ -97,7 +100,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   postMetaInFooter = true   # contain author, lastMod, markdown link, license           # 包含作者，上次修改时间，markdown链接，许可信息
   linkToMarkDown = false    # Only effective when hugo will output .md files.           # 链接到markdown原始文件（仅当允许hugo生成markdown文件时有效）
-  contentCopyright = ''     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+  contentCopyright = '<a target="_blank" rel="license noopener" href="https://github.com/cxyfreedom/blog/blob/master/LICENSE">MIT</a>'     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
   changyanAppid = ""        # Changyan app id             # 畅言
   changyanAppkey = ""       # Changyan app key
@@ -131,9 +134,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   # Display a message at the beginning of an article to warn the readers that it's content may be outdated.
   # 在文章开头显示提示信息，提醒读者文章内容可能过时。
   [params.outdatedInfoWarning]
-    enable = false
-    hint = 30               # Display hint if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示提醒
-    warn = 180              # Display warning if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示警告
+    enable = true
+    hint = 365               # Display hint if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示提醒
+    warn = 730              # Display warning if the last modified time is more than these days ago.    # 如果文章最后更新于这天数之前，显示警告
 
   [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
     owner = ""              # Your GitHub ID
@@ -142,8 +145,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     clientSecret = ""       # Your client secret
 
   [params.utterances]       # https://utteranc.es/
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
+    owner = "cxyfreedom"              # Your GitHub ID
+    repo = "blog"               # The repo to store comments
 
   [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
     owner = ""              # Your GitHub ID
@@ -165,7 +168,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     visitor = false
 
   [params.flowchartDiagrams]# see https://blog.olowolo.com/example-site/post/js-flowchart-diagrams/
-    enable = false
+    enable = true
     options = ""
 
   [params.sequenceDiagrams] # see https://blog.olowolo.com/example-site/post/js-sequence-diagrams/
@@ -180,8 +183,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.reward]                                         # 文章打赏
     enable = true
-    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
-    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
+    wechat = "/img/reward/wechat.jpg"           # 微信二维码
+    alipay = "/img/reward/alipay.jpg"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
     a-email = "mailto:cxydfreedom@email.com"
