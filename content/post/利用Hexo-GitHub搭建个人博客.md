@@ -3,7 +3,7 @@ title: 利用 Hexo + GitHub 搭建个人博客
 date: 2015-11-06T15:35:56+08:00
 description: ""
 tags: ["hexo", "Blog"]
-categories:
+categories: ["Blog"]
 ---
 网上看到各式各样的博客，因此，自己也想拥有一个属于自己的独立博客。利用搜索引擎，最终选择了 Hexo + Github 的方式来搭建一个静态博客。搭建完成后，决定把自己从开始到搭建完成的整个过程给记录下来，也可以给以后搭建博客的人一个参考。
 

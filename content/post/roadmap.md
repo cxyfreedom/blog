@@ -13,17 +13,17 @@ weight: 1
 
 ### Python
 
-* [解析自定义 Logger 后会打印第三方库中 Logger 日志的原因]({{< ref "python-custom-logger.md" >}})
-* [Python 设计模式实现]({{<ref "python-design-pattern.md" >}})
-* [深入理解 Python 中的元类（metaclass）]({{<ref "python-metaclass.md" >}})
-* [Python 中给文件加锁——fcntl]({{<ref "python-module-fcntl.md" >}})
-* [Python 中 Redis 连接池原理]({{<ref "python-redis-pool.md" >}})
-* [Python源码解析——可重入锁RLock]({{<ref "python-source-code-parse-with-rlock.md" >}})
-* [Python 中的一些技巧]({{<ref "python-tricks.md" >}})
+* [解析自定义 Logger 后会打印第三方库中 Logger 日志的原因]({{<relref "python-custom-logger.md" >}})
+* [Python 设计模式实现]({{<relref "python-design-pattern.md" >}})
+* [深入理解 Python 中的元类（metaclass）]({{<relref "python-metaclass.md" >}})
+* [Python 中给文件加锁——fcntl]({{<relref "python-module-fcntl.md" >}})
+* [Python 中 Redis 连接池原理]({{<relref "python-redis-pool.md" >}})
+* [Python源码解析——可重入锁RLock]({{<relref "python-source-code-parse-with-rlock.md" >}})
+* [Python 中的一些技巧]({{<relref "python-tricks.md" >}})
 
 ## 数据结构与算法
 
-* [剑指Offer——Python 题解]({{<ref "target-offer-python.md" >}})
+* [剑指Offer——Python 题解]({{<relref "target-offer-python.md" >}})
 
 ### 排序
 
@@ -103,12 +103,12 @@ weight: 1
 
 #### Docker
 
-* [Docker 容器技术基础总结]({{<ref "docker-base.md" >}})
+* [Docker 容器技术基础总结]({{<relref "docker-base.md" >}})
 
 #### Kubernetes
 
-* [使用 kubeadm 安装 Kubernetes 1.12]({{<ref "deploy-kubernetes-using-kubeadm.md" >}})
-* [Helm 使用教程]({{<ref "kubernetes-helm-installation.md" >}})
+* [使用 kubeadm 安装 Kubernetes 1.12]({{<relref "deploy-kubernetes-using-kubeadm.md" >}})
+* [Helm 使用教程]({{<relref "kubernetes-helm-installation.md" >}})
 
 ### 私有网络
 
@@ -276,7 +276,7 @@ weight: 1
 
 #### 一致性哈希算法
 
-* [使用 HashRing 实现 Python 下的一致性哈希算法]({{<ref "python-consistent-hash.md" >}})
+* [使用 HashRing 实现 Python 下的一致性哈希算法]({{<relref "python-consistent-hash.md" >}})
 
 ### 服务拆分
 
@@ -306,9 +306,11 @@ weight: 1
 
 #### 博客
 
-* [Hexo 博客 SEO 优化]({{<ref "blog-seo-optimization.md" >}})
-* [GitHub Pages 启用 SSL/TLS]({{<ref "Hexo-with-SSL-hosted-on-Github-Pages.md" >}})
-* [利用 Hexo + GitHub 搭建个人博客]({{<ref "利用Hexo-GitHub搭建个人博客.md" >}})
+* [使用 Hugo 搭建 Blog]({{<relref "build-blog-with-hugo.md" >}})
+* [Hexo 博客 SEO 优化]({{<relref "blog-seo-optimization.md" >}})
+* [GitHub Pages 启用 SSL/TLS]({{<relref "Hexo-with-SSL-hosted-on-Github-Pages.md" >}})
+* [利用 Hexo + GitHub 搭建个人博客]({{<relref "利用Hexo-GitHub搭建个人博客.md" >}})
+
 
 #### 社交媒体
 
@@ -320,7 +322,7 @@ weight: 1
 
 #### 工具
 
-* [tmux 使用总结]({{<ref "tmux.md" >}})
+* [tmux 使用总结]({{<relref "tmux.md" >}})
 
 ### 其他
 
