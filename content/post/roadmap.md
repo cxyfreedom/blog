@@ -20,6 +20,7 @@ weight: 1
 * [Python 中 Redis 连接池原理]({{<relref "python-redis-pool.md" >}})
 * [Python源码解析——可重入锁RLock]({{<relref "python-source-code-parse-with-rlock.md" >}})
 * [Python 中的一些技巧]({{<relref "python-tricks.md" >}})
+* [Python 中容易出现误解的特性]({{<relref "lesser-known-features-in-python.md" >}})
 
 ## 数据结构与算法
 
