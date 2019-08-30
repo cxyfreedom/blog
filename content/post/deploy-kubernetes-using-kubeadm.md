@@ -2,7 +2,7 @@
 title: 使用 kubeadm 安装 Kubernetes 1.12
 date: 2018-11-22T17:26:21+08:00
 description: ""
-tags: ["kubernetes", "kubeadm"]
+tags: ["Kubernetes", "kubeadm"]
 categories: ["DevOps"]
 ---
 kubeadm 是 Kubernetes 官方提供的用于快速部署 Kubernetes 集群的工具，本文主要记录自己通过 kubeadm 部署 Kubernetes 过程中遇到的问题和踩过的坑，便于自己和他人查阅。

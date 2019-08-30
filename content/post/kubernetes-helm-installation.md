@@ -2,7 +2,7 @@
 title: Helm 使用教程
 date: 2018-09-13T21:30:37+08:00
 description: ""
-tags: ["kubernetes", "Helm"]
+tags: ["Kubernetes", "Helm"]
 categories: ["DevOps"]
 ---
 Helm 是 Kubernetes 的一个包管理器，用来简化 Kubernetes 应用的部署和管理。类似于 CentOS 的 yum 工具 或者是 Ubuntu 的 apt-get 工具。
