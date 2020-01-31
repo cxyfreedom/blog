@@ -25,14 +25,14 @@ class Solution:
         row = len(arr)
         col = len(arr[0])
 
-        i, j = col - 1, 0
-        while i >= 0 and j < row:
+        i, j = 0, col - 1
+        while j >= 0 and i < row:
             if arr[i][j] == target:
                 return True
             elif arr[i][j] > target:
-                i -= 1
+                j -= 1
             else:
-                j += 1
+                i += 1
 
         return False
 ```
