@@ -55,6 +55,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 40
   identifier = "categories"
   url = "/categories/"
+[[menu.main]]
+  name = "简历"
+  weight = 50
+  identifier = "resume"
+  url = "https://hacknical.com/cxyfreedom/resume?locale=zh"
 
 
 [params]
